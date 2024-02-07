@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jobsfinder"
+version = "0.1.0"
+description = "A small python script/app to scrape job postings and extract their real features, so they can be used for a job search."
+authors = ["OnyxianSoul <onyxiansoul@gmail.com>"]
+license = "BSD0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-jobspy = "^1.1.42"
+spacy = "^3.7.3"
+ipykernel = "^6.29.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
